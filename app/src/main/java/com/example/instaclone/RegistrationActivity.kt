@@ -14,8 +14,11 @@ class RegistrationActivity : AppCompatActivity() {
         binding = ActivityRegistrationBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //убирает тулбар
+        supportActionBar?.hide()
+
         binding.loginButton.setOnClickListener {
-            val i = Intent(this, MainActivity::class.java)
+            val i = Intent(this, LoginActivity::class.java)
             startActivity(i)
         }
 

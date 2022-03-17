@@ -14,22 +14,23 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        //убирает тулбар
+        supportActionBar?.hide()
 
 
         //тестовая кнопка
-        binding.signInButton.setOnClickListener{
+        binding.signInButton.setOnClickListener {
             val i = Intent(this, MainActivity::class.java)
             startActivity(i)
         }
 
         //кнопка на активити регистрации
-        binding.registrationButton.setOnClickListener{
+        binding.registrationButton.setOnClickListener {
             val i = Intent(this, RegistrationActivity::class.java)
             startActivity(i)
         }
 
-        binding.forgotUrl.setOnClickListener{
+        binding.forgotUrl.setOnClickListener {
             val i = Intent(this, RegistrationActivity::class.java)
             startActivity(i)
         }
