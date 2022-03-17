@@ -22,5 +22,11 @@ class LoginActivity : AppCompatActivity() {
             val i = Intent(this, MainActivity::class.java)
             startActivity(i)
         }
+
+        //кнопка на активити регистрации
+        binding.registrationButton.setOnClickListener{
+            val i = Intent(this, RegistrationActivity::class.java)
+            startActivity(i)
+        }
     }
 }
