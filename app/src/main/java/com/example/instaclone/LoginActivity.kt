@@ -28,5 +28,10 @@ class LoginActivity : AppCompatActivity() {
             val i = Intent(this, RegistrationActivity::class.java)
             startActivity(i)
         }
+
+        binding.forgotUrl.setOnClickListener{
+            val i = Intent(this, RegistrationActivity::class.java)
+            startActivity(i)
+        }
     }
 }

@@ -1,5 +1,6 @@
 package com.example.instaclone
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.instaclone.databinding.ActivityMainBinding
@@ -13,5 +14,14 @@ class RegistrationActivity : AppCompatActivity() {
         binding = ActivityRegistrationBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.loginButton.setOnClickListener {
+            val i = Intent(this, MainActivity::class.java)
+            startActivity(i)
+        }
+
+        binding.okButton.setOnClickListener {
+            val i = Intent(this, MainActivity::class.java)
+            startActivity(i)
+        }
     }
 }

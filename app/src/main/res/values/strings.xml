@@ -3,4 +3,6 @@
     <string name="sign_in">Sign in</string>
     <string name="hello_there">Hello there</string>
     <string name="registration">Registration</string>
+    <string name="login">Login</string>
+    <string name="forgot">Forgot?</string>
 </resources>
