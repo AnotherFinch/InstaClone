@@ -15,8 +15,10 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
+
+
         //тестовая кнопка
-        binding.testButton2.setOnClickListener{
+        binding.signInButton.setOnClickListener{
             val i = Intent(this, MainActivity::class.java)
             startActivity(i)
         }
