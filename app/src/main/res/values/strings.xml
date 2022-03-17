@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">InstaClone</string>
+    <string name="sign_in">Sign in or registration</string>
+    <string name="hello_there">Hello there</string>
 </resources>
