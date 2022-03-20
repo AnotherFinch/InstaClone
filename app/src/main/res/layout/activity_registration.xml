@@ -39,9 +39,11 @@
         android:layout_width="216dp"
         android:layout_height="48dp"
         android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
         android:ems="10"
+        android:hint="Password"
+        android:hintTextColor="#757575"
         android:inputType="textPersonName"
-        android:text="Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
@@ -62,9 +64,10 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="216dp"
         android:layout_height="50dp"
+        android:background="@android:color/transparent"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -75,9 +78,10 @@
         android:layout_width="216dp"
         android:layout_height="48dp"
         android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textPersonName"
-        android:text="Email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 

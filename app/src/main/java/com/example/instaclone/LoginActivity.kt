@@ -34,5 +34,6 @@ class LoginActivity : AppCompatActivity() {
             val i = Intent(this, RegistrationActivity::class.java)
             startActivity(i)
         }
+
     }
 }

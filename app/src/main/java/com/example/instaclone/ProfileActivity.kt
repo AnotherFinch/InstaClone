@@ -3,7 +3,6 @@ package com.example.instaclone
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.instaclone.databinding.ActivityMainBinding
 import com.example.instaclone.databinding.ActivityProfileBinding
 
 class ProfileActivity : AppCompatActivity() {
