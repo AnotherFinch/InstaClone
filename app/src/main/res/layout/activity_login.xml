@@ -77,11 +77,11 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
+            android:background="@android:color/transparent"
             android:ems="10"
             android:gravity="center"
-            android:inputType="textPersonName"
-            android:background="@android:color/transparent"
-            android:text="Name" />
+            android:hint="@string/login"
+            android:inputType="textPersonName" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -105,8 +105,8 @@
             android:background="@android:color/transparent"
             android:ems="10"
             android:gravity="center"
+            android:hint="Password"
             android:inputType="textPassword"
-            android:text="password"
             tools:ignore="SpeakableTextPresentCheck" />
     </androidx.cardview.widget.CardView>
 
